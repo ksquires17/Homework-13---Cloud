@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ANSIBLE file may be used to install only certain pieces of it, such as Filebeat.
 
-![filebeat-playbook](https://github.com/ksquires17/Homework-13---Cloud/blob/master/filebeat-playbook.txt)
+![filebeat-playbook](filebeat-playbook.txt)
    
 
 This document contains the following details:
