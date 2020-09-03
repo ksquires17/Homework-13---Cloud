@@ -6,6 +6,8 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ANSIBLE file may be used to install only certain pieces of it, such as Filebeat.
 
+![install_ELK](install_ELK.txt)
+
 ![filebeat-playbook](filebeat-playbook.txt)
    
 
@@ -26,7 +28,7 @@ Load balancing ensures that the application will be highly RESPONSIVE, in additi
 What aspect of security do load balancers protect? LOAD BALANCERS PROTECT APPLICATIONS FROM EMERGING THREATS, AUTHENTICATE USER ACCESS AND PROTECT FROM DDoS ATTACKS
 What is the advantage of a jump box? A JUMP BOX PROTECTS VM'S FROM THE PUBLIC INTERNET
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the FILE SYSTEM and system METRICS.
 What does Filebeat watch for? MONITORS THE LOG FILES/LOCATIONS SPECIFIED AND FORWARDS THEM TO ELASTICSEARCH FOR INDEXING
 What does Metricbeat record? METRICS FROM THE SYSTEM AND SERVICES RUNNING ON THE SERVER
 
@@ -79,7 +81,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![Docker Image](docker ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
